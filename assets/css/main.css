@@ -1273,3 +1273,21 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .header,
+.dark-mode .section {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .header .navmenu a,
+.dark-mode .section h2,
+.dark-mode .section p {
+  color: #ffffff;
+}
